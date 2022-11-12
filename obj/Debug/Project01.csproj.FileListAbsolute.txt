@@ -1,0 +1,11 @@
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.csproj.AssemblyReference.cache
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.Form1.resources
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.Properties.Resources.resources
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.csproj.GenerateResource.cache
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.csproj.CoreCompileInputs.cache
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\bin\Debug\Project01.exe.config
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\bin\Debug\Project01.exe
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\bin\Debug\Project01.pdb
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.exe
+C:\Users\Jotinha\OneDrive\Área de Trabalho\FormPractice\Project01\obj\Debug\Project01.pdb
