@@ -51,5 +51,50 @@ namespace Project01
 
             MessageBox.Show($"{a1} {a2}");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double saldo = 100.0;
+            double valorSaque = 10.0;
+
+            if(saldo >= valorSaque)
+            {
+                saldo -= valorSaque;
+                MessageBox.Show($"Saque realizado com sucesso. Seu saldo é: {saldo}");
+            }
+            else
+            {
+                MessageBox.Show("Saldo insuficiente.");
+            }
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            double saldo = 5.0;
+            double valorSaque = 10.0;
+
+            if(saldo >= valorSaque )
+            {
+                saldo -= valorSaque;
+                MessageBox.Show($"Saque realizado com sucesso.");
+            }
+            else
+            {
+                MessageBox.Show("Saldo insuficente.");
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int idade = 16;
+            bool brasileira = false;
+
+            if (idade >= 16 && brasileira == true)
+                MessageBox.Show("Você está apta a votar");
+            else
+                MessageBox.Show("Calma! A sua hora vai chegar.");
+
+        }
     }
 }
