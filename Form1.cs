@@ -96,5 +96,104 @@ namespace Project01
                 MessageBox.Show("Calma! A sua hora vai chegar.");
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            double valorNotaFiscal = 5040.0;
+            double imposto;
+
+            if(valorNotaFiscal <= 999)
+            {
+                imposto = 1.02;
+                valorNotaFiscal *= imposto;
+                MessageBox.Show($"Imposto a pagar de: {valorNotaFiscal}");
+            }
+            else if(valorNotaFiscal >= 1000 && valorNotaFiscal <= 2999)
+            {
+                imposto = 1.025;
+                valorNotaFiscal *= imposto;
+                MessageBox.Show($"Imposto a pagar de: {valorNotaFiscal}");
+            }
+            else if(valorNotaFiscal >= 3000 && valorNotaFiscal <= 6999)
+            {
+                imposto = 1.028;
+                valorNotaFiscal *= imposto;
+                MessageBox.Show($"Imposto a pagar de: {valorNotaFiscal}");
+            }
+            else
+            {
+                imposto = 1.03;
+                valorNotaFiscal *= imposto;
+                MessageBox.Show($"Imposto a pagar de: {valorNotaFiscal}");
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            int valor = 15;
+            string mensagem = (valor > 35) ? "Maior que 35" : "Menor que 35";
+
+            MessageBox.Show(mensagem);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            int total = 2;
+            for(int i = 0; i < 5; i++)
+            {
+                total *= 2;
+            }
+            MessageBox.Show($"O total é: {total}");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            int total = 1;
+            for(int i = 0; i < 1000; i++)
+            {
+                total += i;
+            }
+            MessageBox.Show($"O total é: {total}");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+           for(int i =3; i <=100; i +=3)
+            {  
+                    MessageBox.Show("Número múltiplo de 3: " + i);
+            }
+            /*
+             
+            int count = 1;
+            while (count <= 100)
+            {
+                if (count % 3 == 0)
+                {
+                    MessageBox.Show($" Esse número é múltiplo de 3: {count}");
+                }
+                count++;
+            }
+             
+             */
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            int numeroInicial = 1;
+            int numeroFinal = 100;
+            var soma = 0;
+
+            for(int numeroAtual = numeroInicial;numeroAtual <= numeroFinal;numeroAtual++)
+            {
+                var ehMultiploDeTres = numeroAtual % 3 == 0;
+                if (ehMultiploDeTres)
+                    continue;
+
+                soma += numeroAtual;
+            }
+            MessageBox.Show($"O resultado é {soma}");
+            
+
+        }
     }
 }
