@@ -1,0 +1,11 @@
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\bin\Debug\BankingRegister.exe.config
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\bin\Debug\BankingRegister.exe
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\bin\Debug\BankingRegister.pdb
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.csproj.AssemblyReference.cache
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.Form1.resources
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.Properties.Resources.resources
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.csproj.GenerateResource.cache
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.csproj.CoreCompileInputs.cache
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.exe
+C:\Users\Jotinha\learningWindowsForms\BankingRegister\obj\Debug\BankingRegister.pdb
